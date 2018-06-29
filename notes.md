@@ -1,5 +1,8 @@
 CLI Gem Project - Basketball
-
+-Blog Post Notes
+  -Followed Avi's Video on creating a CLI gem.
+  -For the longest time, I was stuck trying to use git.  Realized that the problem had to do with my anti-virus software, so I disabled web anti-virus and it proceeded to work again.
+  
 -A command line interface that allows you to pick two teams of five and see which team would "win" in a contest.  Once there is a winner, the user is able to play against the winning team by selecting a new team of five.  Also make sure that in this command line interface, you are able to see what are the player's stats.  This uses Basketball Reference
 
 INTERFACE
