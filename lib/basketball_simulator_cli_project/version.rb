@@ -1,9 +1,3 @@
-module Basketball
-  module Simulator
-    module Cli
-      module Project
-        VERSION = "0.1.0"
-      end
-    end
-  end
+module Basketball_simulator_cli_project
+  VERSION = "0.1.0"
 end

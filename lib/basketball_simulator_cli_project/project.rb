@@ -1,11 +1,2 @@
-require "basketball_simulator_cli_project/version"
-
-module Basketball
-  module Simulator
-    module Cli
-      module Project
-        # Your code goes here...
-      end
-    end
-  end
-end
+require "./basketball_simulator_cli_project/version"
+require_relative "./basketball_simulator_cli_project/cli"
