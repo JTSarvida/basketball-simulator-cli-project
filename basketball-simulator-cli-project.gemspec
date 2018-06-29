@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "basketball/simulator/cli/project/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "basketball-simulator-cli-project"
+  spec.name          = "basketball_simulator_cli_project"
   spec.version       = Basketball::Simulator::Cli::Project::VERSION
   spec.authors       = ["'Joshua Tan'"]
   spec.email         = ["'jtsarvida@gmail.com'"]
