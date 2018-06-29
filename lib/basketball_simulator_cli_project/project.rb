@@ -1,4 +1,4 @@
-require "basketball/simulator/cli/project/version"
+require "basketball_simulator_cli_project/version"
 
 module Basketball
   module Simulator

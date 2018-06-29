@@ -1,7 +1,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "basketball/simulator/cli/project/version"
+require "basketball_simulator_cli_project/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "basketball_simulator_cli_project"
