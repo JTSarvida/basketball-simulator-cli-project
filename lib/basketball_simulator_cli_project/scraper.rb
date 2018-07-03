@@ -2,7 +2,6 @@ require "nokogiri"
 require "open-uri"
 require "pry"
 
-
 class Scraper
   def self.scrape_nba_players_urls()
     players_urls = []
@@ -15,5 +14,9 @@ class Scraper
       end
     end
     players_urls
+    binding.pry
   end
+  
 end
+
+
