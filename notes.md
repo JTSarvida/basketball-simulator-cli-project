@@ -2,6 +2,9 @@ CLI Gem Project - Basketball
 -Blog Post Notes
   -Followed Avi's Video on creating a CLI gem.
   -For the longest time, I was stuck trying to use git.  Realized that the problem had to do with my anti-virus software, so I disabled web anti-virus and it proceeded to work again.
+  -Didn't understand necessarily what it was meant that you want to create a collection of objects rather than hashes, so I googled around and found this stack overflow post that helped explain the difference.  https://stackoverflow.com/questions/42744277/ruby-object-vs-hash
+  -Following Avi's video, but also just creating files here and there as I see fit.  This was based off of previous labs/lessons, and didn't want to forget certain things that were necessary for it.
+  -Realized that one thing that's different from this and the previous scraping labs I've done is that I need to also collect individual urls for each player page. Going to figure out how to do that by googling.
   
 -A command line interface that allows you to pick two teams of five and see which team would "win" in a contest.  Once there is a winner, the user is able to play against the winning team by selecting a new team of five.  Also make sure that in this command line interface, you are able to see what are the player's stats.  This uses Basketball Reference
 
