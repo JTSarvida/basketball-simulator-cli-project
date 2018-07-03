@@ -15,6 +15,9 @@ INTERFACE
 -user inputs a players name.  If spelled incorrectly or not capitalized correctly, then will ask "What player would you like to see?" again until correct.
 -output:
     Player Name
+    Height and Weight
+    Team
+    Birthday/Birthplace
     Points per game
     Rebounds per game
     Assists per game
@@ -37,3 +40,18 @@ Step by Step Plan
 -Don't want to complicate the cli file. Want a CLI class, instantiate it (.new), and then call it. (ie. basketball-simulator::CLI.new.call)
 -within this CLI class, you place your methods here.  This CLI class will be our CLI Controller.
 -make sure the cli file in bin requires the correct requirements in order to run through bash rather than ruby interpretor.
+-Make a pseudo project, where you replicate the interface and it does "work" in a sense, but has no logic to it.  Hard logic placed in.
+-Once that is done, figure out what properties there are for your object.  In this case the object is the player that the person is looking at:
+    Player Name
+    Height and Weight
+    Team
+    Birthday/Birthplace
+    Points per game
+    Rebounds per game
+    Assists per game
+    Steals per game
+    Blocks per game
+    Field Goal %
+    3 point %
+    FT %
+-
