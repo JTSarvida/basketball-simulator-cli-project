@@ -13,4 +13,4 @@ require "./lib/basketball_simulator_cli_project"
 require "irb"
 IRB.start(__FILE__)
 
-BasketballSimulator::CLI.new.call
+

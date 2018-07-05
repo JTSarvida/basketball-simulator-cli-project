@@ -31,9 +31,9 @@ class BasketballSimulator::CLI
         while input != "exit"
             input = gets.strip.downcase
             if input == player.name.downcase
-                puts "player.name","player.height_and_weight","player.team","player.birthday_birthplace","player.points","player.rebounds","player.assists","player.steals","player.blocks","player.field_goal","player.threepoint","player.freethrow"
+                puts "Name: #{player.name}","Height and Weight: #{player.height_and_weight}","Team: #{player.team}","Birthday and Birthplace: #{player.birthday_birthplace}","Points per game: #{player.points}","Rebounds per game: #{player.rebounds}","Assists per game: #{player.assists}","Steals per game: #{player.steals}","Blocks per game: #{player.blocks}","FG%: #{player.field_goal}","3pt%: #{player.threepoint}","FT%: #{player.freethrow}"
             else
-                puts "What player would you like to see?"
+                player_stats
             end
         end
     end
